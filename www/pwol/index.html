@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<link rel="icon" type="image/png" href="/luci-static/bootstrap/favicon.png"/>
+<title>Public Wake-On-LAN Interface</title>
+<style>
+body { text-align: center; }
+table { border-collapse: collapse; }
+th, td { padding: 1px 5px 1px 5px; border: 1px solid black; }
+button { margin: 1px 2px 1px 2px; }
+.red { color: #f00; } .blue { color: #00f; } .text-center { text-align: center } .w-100 { width: 100% } .w-80 { width: 80% } .elem-center { margin-left: auto; margin-right: auto; }
+</style>
+</head>
+
+<body>
+<h1>Public Wake-On-LAN Interface</h1>
+<div id="err_cont" class="center red" hidden>error text</div>
+<table id="dev_list" class="elem-center">
+    <tr><th>Hostname</th><th>MAC Addr</th><th>IP Addr</th><th>Status</th><th>Action</th></tr>
+</table>
+<script src="script.js"></script>
+</body>
+
+</html>
